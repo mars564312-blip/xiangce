@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+		EFD270458DB14C068E5D9862 /* PerceptualHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689850E1DEF6431BB97D2A02 /* PerceptualHash.swift */; };
+		5C820B9955F9425197E334E4 /* SimilarGroupDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C650AEA6AC6547FABAF5B6FA /* SimilarGroupDetector.swift */; };
+		0315C5708C084960AF17DB81 /* TabulaV3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5848E1B7E4EA6A4FA5A41 /* TabulaV3App.swift */; };
+		C982E787CBE6406E80AAAC7B /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5A926A94114D68B7E82674 /* Album.swift */; };
+		810D356529D24807A37718DD /* ImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939D82E7D73454C80D11C54 /* ImageFile.swift */; };
+		FC03F43678B745A4966E784F /* SimilarGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED87B6641964BB8BA78D863 /* SimilarGroup.swift */; };
+		533088398E1E497EB8FD99A6 /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45438AD9E0F44DF8A02D0B1 /* AlbumManager.swift */; };
+		36E03DE8A7FD47F98ACD60BE /* AlbumMetadataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7B9F301AB4B8EAC6D8FA7 /* AlbumMetadataStore.swift */; };
+		AD476061E7D848E7BF59AB3C /* ImageHashCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4B3F930C840FF81EFD939 /* ImageHashCache.swift */; };
+		AD5FF7827DA64D2BAB5499EB /* PhotoLibraryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED914CB79AFC44B3891F1A27 /* PhotoLibraryRepository.swift */; };
+		97DA56CB5E7E43A187957292 /* PhotoPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82C2B87D744DB98AC89E5C /* PhotoPermissionManager.swift */; };
+		CE23E0BE6ABE4D1E955D0E4D /* PhotoLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D6B6DAE864B63A6DC0B6E /* PhotoLibraryViewModel.swift */; };
+		23E8C725066C469DB72AEE7F /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0150F50124927A5705561 /* AlbumDetailView.swift */; };
+		5E7E9EAA2BEE4F6DA59D5E69 /* AlbumsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B114173BD19D404BBDE32F27 /* AlbumsScreen.swift */; };
+		46A30C1F5ED9465CB03BADC3 /* AlbumPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42F16974E94F4F8F4B95FF /* AlbumPickerSheet.swift */; };
+		35909EA37D534801957A7BE1 /* PhotoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBF1F0EB7764FA89B469160 /* PhotoCardView.swift */; };
+		6D9FA9991DCA4D50994FE328 /* DeckScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE5B8B70A0741AFBA854701 /* DeckScreen.swift */; };
+		1C20FB0B8034401990868282 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1442099D345DE91658F8D /* MainTabView.swift */; };
+		B3FE9F165ED84C56A9AC9468 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9D7CB4424942098372A269 /* PermissionView.swift */; };
+		7A5C9FA6E0B347B5AC88F0A8 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645F8A47B8B493CBEF399EA /* SettingsScreen.swift */; };
+		AD2966BF1F734BE5A2B52490 /* SimilarGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA5C6B9615424E8456959A /* SimilarGroupsView.swift */; };
+		4FAD611A3C004EFBAFDD2430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB78889F8A849FB8FFDB79C /* Assets.xcassets */; };
+
+		376DDB490BFE402A815EE841 /* TabulaV3IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabulaV3IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689850E1DEF6431BB97D2A02 /* PerceptualHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Algorithms/PerceptualHash.swift; sourceTree = "<group>"; };
+		C650AEA6AC6547FABAF5B6FA /* SimilarGroupDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Algorithms/SimilarGroupDetector.swift; sourceTree = "<group>"; };
+		82B5848E1B7E4EA6A4FA5A41 /* TabulaV3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/App/TabulaV3App.swift; sourceTree = "<group>"; };
+		BC5A926A94114D68B7E82674 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Models/Album.swift; sourceTree = "<group>"; };
+		7939D82E7D73454C80D11C54 /* ImageFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Models/ImageFile.swift; sourceTree = "<group>"; };
+		7ED87B6641964BB8BA78D863 /* SimilarGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Models/SimilarGroup.swift; sourceTree = "<group>"; };
+		C45438AD9E0F44DF8A02D0B1 /* AlbumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Repositories/AlbumManager.swift; sourceTree = "<group>"; };
+		4FB7B9F301AB4B8EAC6D8FA7 /* AlbumMetadataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Repositories/AlbumMetadataStore.swift; sourceTree = "<group>"; };
+		94B4B3F930C840FF81EFD939 /* ImageHashCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Repositories/ImageHashCache.swift; sourceTree = "<group>"; };
+		ED914CB79AFC44B3891F1A27 /* PhotoLibraryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Repositories/PhotoLibraryRepository.swift; sourceTree = "<group>"; };
+		1F82C2B87D744DB98AC89E5C /* PhotoPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Repositories/PhotoPermissionManager.swift; sourceTree = "<group>"; };
+		CF3D6B6DAE864B63A6DC0B6E /* PhotoLibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/ViewModels/PhotoLibraryViewModel.swift; sourceTree = "<group>"; };
+		11F0150F50124927A5705561 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Views/AlbumDetailView.swift; sourceTree = "<group>"; };
+		B114173BD19D404BBDE32F27 /* AlbumsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Views/AlbumsScreen.swift; sourceTree = "<group>"; };
+		EF42F16974E94F4F8F4B95FF /* AlbumPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Views/Components/AlbumPickerSheet.swift; sourceTree = "<group>"; };
+		1DBF1F0EB7764FA89B469160 /* PhotoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Views/Components/PhotoCardView.swift; sourceTree = "<group>"; };
+		ABE5B8B70A0741AFBA854701 /* DeckScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Views/DeckScreen.swift; sourceTree = "<group>"; };
+		08C1442099D345DE91658F8D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Views/MainTabView.swift; sourceTree = "<group>"; };
+		AB9D7CB4424942098372A269 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Views/PermissionView.swift; sourceTree = "<group>"; };
+		F645F8A47B8B493CBEF399EA /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Views/SettingsScreen.swift; sourceTree = "<group>"; };
+		C3EA5C6B9615424E8456959A /* SimilarGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulaV3IOS/TabulaV3IOS/Views/SimilarGroupsView.swift; sourceTree = "<group>"; };
+		AF40E8A8AE164EDABCD62DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TabulaV3IOS/TabulaV3IOS/Info.plist; sourceTree = "<group>"; };
+		0BB78889F8A849FB8FFDB79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabulaV3IOS/Resources/Assets.xcassets; sourceTree = "<group>"; };
+
+		55DC887941A7456987EBB879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				376DDB490BFE402A815EE841 /* TabulaV3IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C01DA5CA0654B19AA3E494F = {
+			isa = PBXGroup;
+			children = (
+				AF40E8A8AE164EDABCD62DDB /* Info.plist */,
+				0BB78889F8A849FB8FFDB79C /* Assets.xcassets */,
+								689850E1DEF6431BB97D2A02 /* PerceptualHash.swift */,
+				C650AEA6AC6547FABAF5B6FA /* SimilarGroupDetector.swift */,
+				82B5848E1B7E4EA6A4FA5A41 /* TabulaV3App.swift */,
+				BC5A926A94114D68B7E82674 /* Album.swift */,
+				7939D82E7D73454C80D11C54 /* ImageFile.swift */,
+				7ED87B6641964BB8BA78D863 /* SimilarGroup.swift */,
+				C45438AD9E0F44DF8A02D0B1 /* AlbumManager.swift */,
+				4FB7B9F301AB4B8EAC6D8FA7 /* AlbumMetadataStore.swift */,
+				94B4B3F930C840FF81EFD939 /* ImageHashCache.swift */,
+				ED914CB79AFC44B3891F1A27 /* PhotoLibraryRepository.swift */,
+				1F82C2B87D744DB98AC89E5C /* PhotoPermissionManager.swift */,
+				CF3D6B6DAE864B63A6DC0B6E /* PhotoLibraryViewModel.swift */,
+				11F0150F50124927A5705561 /* AlbumDetailView.swift */,
+				B114173BD19D404BBDE32F27 /* AlbumsScreen.swift */,
+				EF42F16974E94F4F8F4B95FF /* AlbumPickerSheet.swift */,
+				1DBF1F0EB7764FA89B469160 /* PhotoCardView.swift */,
+				ABE5B8B70A0741AFBA854701 /* DeckScreen.swift */,
+				08C1442099D345DE91658F8D /* MainTabView.swift */,
+				AB9D7CB4424942098372A269 /* PermissionView.swift */,
+				F645F8A47B8B493CBEF399EA /* SettingsScreen.swift */,
+				C3EA5C6B9615424E8456959A /* SimilarGroupsView.swift */,
+				55DC887941A7456987EBB879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+
+		6076183C0DCA4EF183D914DF /* TabulaV3IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A6BD909E7941DABA6278DC /* Build configuration list for PBXNativeTarget "TabulaV3IOS" */;
+			buildPhases = (
+				6C09AD8194644A84B9FA908A /* Sources */,
+				E2AE771BF2C14D0DA6C0165C /* Frameworks */,
+				B9687AE9A01F402F8DD506A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabulaV3IOS;
+			productName = TabulaV3IOS;
+			productReference = 376DDB490BFE402A815EE841 /* TabulaV3IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+
+		1DF995CC45104B538195FD3E = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					6076183C0DCA4EF183D914DF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 6941115E387C4E4B926C7E02 /* Build configuration list for PBXProject "TabulaV3IOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C01DA5CA0654B19AA3E494F;
+			productRefGroup = 55DC887941A7456987EBB879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6076183C0DCA4EF183D914DF /* TabulaV3IOS */,
+			);
+		};
+
+		6C09AD8194644A84B9FA908A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD270458DB14C068E5D9862 /* PerceptualHash.swift in Sources */,
+				5C820B9955F9425197E334E4 /* SimilarGroupDetector.swift in Sources */,
+				0315C5708C084960AF17DB81 /* TabulaV3App.swift in Sources */,
+				C982E787CBE6406E80AAAC7B /* Album.swift in Sources */,
+				810D356529D24807A37718DD /* ImageFile.swift in Sources */,
+				FC03F43678B745A4966E784F /* SimilarGroup.swift in Sources */,
+				533088398E1E497EB8FD99A6 /* AlbumManager.swift in Sources */,
+				36E03DE8A7FD47F98ACD60BE /* AlbumMetadataStore.swift in Sources */,
+				AD476061E7D848E7BF59AB3C /* ImageHashCache.swift in Sources */,
+				AD5FF7827DA64D2BAB5499EB /* PhotoLibraryRepository.swift in Sources */,
+				97DA56CB5E7E43A187957292 /* PhotoPermissionManager.swift in Sources */,
+				CE23E0BE6ABE4D1E955D0E4D /* PhotoLibraryViewModel.swift in Sources */,
+				23E8C725066C469DB72AEE7F /* AlbumDetailView.swift in Sources */,
+				5E7E9EAA2BEE4F6DA59D5E69 /* AlbumsScreen.swift in Sources */,
+				46A30C1F5ED9465CB03BADC3 /* AlbumPickerSheet.swift in Sources */,
+				35909EA37D534801957A7BE1 /* PhotoCardView.swift in Sources */,
+				6D9FA9991DCA4D50994FE328 /* DeckScreen.swift in Sources */,
+				1C20FB0B8034401990868282 /* MainTabView.swift in Sources */,
+				B3FE9F165ED84C56A9AC9468 /* PermissionView.swift in Sources */,
+				7A5C9FA6E0B347B5AC88F0A8 /* SettingsScreen.swift in Sources */,
+				AD2966BF1F734BE5A2B52490 /* SimilarGroupsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AE771BF2C14D0DA6C0165C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9687AE9A01F402F8DD506A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAD611A3C004EFBAFDD2430 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+		7B1D7F07A3F841778177AAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CF9123F9A934CA1A6836079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52CC08F481AA4858BCE05B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabulaV3IOS/TabulaV3IOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabula.v3.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF1924BD3B04F4485531C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabulaV3IOS/TabulaV3IOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tabula.v3.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6941115E387C4E4B926C7E02 /* Build configuration list for PBXProject "TabulaV3IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1D7F07A3F841778177AAA1 /* Debug */,
+				5CF9123F9A934CA1A6836079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A6BD909E7941DABA6278DC /* Build configuration list for PBXNativeTarget "TabulaV3IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CC08F481AA4858BCE05B0C /* Debug */,
+				3EF1924BD3B04F4485531C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+	};
+	rootObject = 1DF995CC45104B538195FD3E /* Project object */;
+}

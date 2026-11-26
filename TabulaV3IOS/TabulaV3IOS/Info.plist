@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Tabula 需要访问你的照片库，才能帮你归类整理照片。照片不会被上传。</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Tabula 需要将照片加入图集，不会修改原图。</string>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>zh_CN</string>
+</dict>
+</plist>
